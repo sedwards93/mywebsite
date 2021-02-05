@@ -1,3 +1,8 @@
+/* * {
+  background-color: #333333;
+  color: #fcfcfc;
+} */
+
 .container {
   display: flex;
   justify-content: center;
@@ -42,7 +47,7 @@
 
 .icon-container a {
   color: inherit;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .container-right {
