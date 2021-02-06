@@ -98,7 +98,8 @@
     max-width: 440px;
   }
   .container-right img {
-    max-height: 80%;
+    height: 250px;
+    width: 240px;
     margin-top: 15%;
   }
   .container-left h1 {
