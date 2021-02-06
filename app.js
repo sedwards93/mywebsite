@@ -17,7 +17,7 @@ const toggleLight = () => {
 };
 
 class TypeWriter {
-  constructor(txtElement, words, wait = 1000) {
+  constructor(txtElement, words, wait = 500) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = "";
@@ -53,7 +53,9 @@ class TypeWriter {
 
     // If word is complete
     if (!this.isDeleting && this.txt === this.words[2]) {
-      document.getElementById("lightbulb").style.visibility = "visible";
+      document
+        .getElementById("lightbulba")
+        .classList.replace("hidden", "visible");
       return;
     } else if (!this.isDeleting && this.txt === fullTxt) {
       // Make pause at end
