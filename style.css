@@ -19,6 +19,7 @@
   left: 0;
   right: 0;
   margin: auto;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .container-left {
@@ -28,14 +29,11 @@
 }
 
 .container-left h1 {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 84px;
-  line-height: 96px;
+  font-size: 80px;
 }
 
 .container-left p {
-  font-family: "Poppins", sans-serif;
   position: relative;
   margin-top: -30px;
   padding-right: 20px;
@@ -68,6 +66,19 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.txt-type > .txt {
+  border-right: 0.3rem solid white;
+  animation: blinkTextCursor 700ms steps(50) infinite normal;
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: grey;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 915px) {
@@ -81,12 +92,12 @@
   }
   .container-left h1 {
     font-size: 42px;
-    margin-top: 0px;
+    margin-top: 40px;
   }
   .container-left p {
     font-size: 10px;
-    margin-top: -40px;
-    line-height: 20px;
+    margin-top: -10px;
+    line-height: 15px;
   }
   .icon-container {
     width: 60%;
