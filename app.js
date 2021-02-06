@@ -86,4 +86,4 @@ function init() {
   new TypeWriter(txtElement, words, wait);
 }
 
-setTimeout(() => toggleLight(), 11000);
+setTimeout(() => toggleLight(), 8000);
