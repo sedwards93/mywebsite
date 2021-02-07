@@ -126,12 +126,12 @@
   }
   .container-left {
     display: flex;
-
     align-items: center;
     margin: auto;
   }
   .container-right {
     display: flex;
+    align-items: center;
     height: 50%;
     margin: auto;
   }
