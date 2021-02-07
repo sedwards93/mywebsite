@@ -132,6 +132,7 @@
   .container-right {
     display: flex;
     justify-content: center;
+    align-self: center;
     height: 50%;
     width: 100%;
     margin: auto;
