@@ -98,8 +98,7 @@
     max-width: 440px;
   }
   .container-right img {
-    height: 250px;
-    width: 210px;
+    max-height: 80%;
     margin-top: 15%;
   }
   .container-left h1 {
@@ -122,7 +121,7 @@
 @media screen and (max-width: 440px) {
   .container {
     flex-direction: column-reverse;
-    max-height: 295px;
+    max-height: 400px;
     max-width: 375px;
   }
   .container-left {
@@ -132,7 +131,8 @@
   }
   .container-right {
     display: flex;
-    align-items: center;
+    height: 250px;
+    justify-content: center;
     margin: auto;
   }
   .container-left p {
