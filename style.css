@@ -139,7 +139,7 @@
   }
 
   .container-right img {
-    height: 100%;
+    width: 100%;
     align-self: center;
   }
   .container-left p {
