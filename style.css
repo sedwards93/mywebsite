@@ -128,7 +128,7 @@
   }
   .container-right {
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
     margin: auto;
   }
   .container-left p {
