@@ -121,7 +121,6 @@
   .container {
     flex-direction: column-reverse;
     align-items: center;
-    background-color: yellow;
     max-height: 500px;
     max-width: 375px;
   }
@@ -133,7 +132,6 @@
   .container-right {
     display: flex;
     justify-content: center;
-    background-color: blue;
     height: 50%;
     width: 100%;
     margin: auto;
