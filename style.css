@@ -132,7 +132,7 @@
   .container-right {
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     height: 50%;
     width: 100%;
     margin: auto;
@@ -140,6 +140,7 @@
 
   .container-right img {
     height: 100%;
+    align-self: center;
   }
   .container-left p {
     margin-left: 20px;
