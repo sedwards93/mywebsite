@@ -120,8 +120,6 @@
 @media screen and (max-width: 440px) {
   .container {
     flex-direction: column-reverse;
-    max-height: 400px;
-    max-width: 375px;
   }
   .container-left {
     display: flex;
@@ -130,7 +128,6 @@
   }
   .container-right {
     display: flex;
-    height: 250px;
     justify-content: center;
     margin: auto;
   }
