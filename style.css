@@ -121,20 +121,23 @@
   .container {
     flex-direction: column-reverse;
     align-items: flex-start;
+    max-height: 500px;
+    max-width: 375px;
   }
   .container-left {
     display: flex;
+
     align-items: center;
     margin: auto;
   }
   .container-right {
     display: flex;
-    align-items: flex-start;
+    height: 50%;
     margin: auto;
   }
 
   .container-right img {
-    object-fit: cover;
+    height: 100%;
   }
   .container-left p {
     margin-left: 20px;
