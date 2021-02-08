@@ -139,7 +139,7 @@
 
   .container-right img {
     display: flex;
-
+    align-self: center;
     max-height: 100%;
     max-width: 100%;
     width: auto;
