@@ -8,5 +8,8 @@ Before writing any code, I created various mockups what I wanted my website to l
 
 In order to make the website responsive, I used a combination of CSS flexbox as well as media queries.
 
+In order to create the typewriter annimation, I followed this [Traversy Media](https://www.youtube.com/watch?v=POX3dT-pB4E&ab_channel=TraversyMedia) tutorial.
 
+### Figma Design Process
 ![Figma](./public/figma.png)
+
