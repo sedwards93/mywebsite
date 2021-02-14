@@ -6,7 +6,7 @@ I used a combination of HTML, CSS and vanilla JavaScript, and deployed my server
 
 Before writing any code, I created various mockups what I wanted my website to look like on various screen resolutions using Figma. This gave me the flexibility to easily change my design. 
 
-In order to make the website responsive, I used a combination of CSS flexbox as well as media queries.
+In order to make the website responsive, I used a combination of CSS flexbox and media queries.
 
 
 ![Figma](./public/figma.png)
