@@ -1,3 +1,8 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+}
+
 .light {
   background-color: #faf0ca;
   color: #0d3b66;
@@ -6,6 +11,10 @@
 .dark {
   background-color: #0d3b66;
   color: #faf0ca;
+}
+
+.home {
+  height: 100vh;
 }
 
 .container {
@@ -19,7 +28,6 @@
   left: 0;
   right: 0;
   margin: auto;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .container-left {
@@ -88,6 +96,52 @@
   to {
     border-right-color: transparent;
   }
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  background-color: #0d3b66;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 20px;
+}
+
+.project-text {
+  font-size: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 20px;
+}
+
+.project-text-bold {
+  font-size: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
 }
 
 /* Media Queries */
