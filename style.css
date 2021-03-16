@@ -103,13 +103,15 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
-  background-color: #0d3b66;
+  padding-top: 40 px;
+  padding-bottom: 100px;
+  background-color: white;
+  color: #0d3b66;
 }
 
 .projects h2 {
   font-size: 60px;
-  color: #faf0ca;
+  color: #0d3b66;
 }
 
 .project-container {
@@ -123,7 +125,7 @@ body {
   height: 460px;
   margin: 10px;
   background-color: white;
-  box-shadow: 5px 5px 20px;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,6 +160,20 @@ body {
 
 .socials a {
   color: #0d3b66;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0d3b66;
+  color: #faf0ca;
+  text-align: center;
+  padding: 80px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #faf0ca;
 }
 
 /* Media Queries */
