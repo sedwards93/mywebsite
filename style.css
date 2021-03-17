@@ -1,7 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
   margin: 0px;
-  
 }
 
 .light {
@@ -16,6 +15,7 @@ body {
 
 .home {
   height: 100vh;
+  display: flex;
 }
 
 .container {
