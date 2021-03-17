@@ -169,7 +169,7 @@ footer {
   background-color: #0d3b66;
   color: #faf0ca;
   text-align: center;
-  padding: 80px;
+  padding: 30px;
 }
 
 footer a {
@@ -242,5 +242,11 @@ footer a {
     margin-left: 20px;
     margin-right: 10px;
     font-size: 12px;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer h2 {
+    font-size: 20px;
   }
 }
