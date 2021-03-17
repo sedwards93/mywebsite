@@ -148,7 +148,7 @@ body {
 .project-image {
   margin-top: 10px;
   width: 60%;
-  border: solid black 2px;
+  border: solid #0d3b66 2px;
   border-radius: 50%;
 }
 
@@ -191,7 +191,7 @@ footer a {
     margin-top: 40px;
   }
   .container-left p {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: -10px;
     line-height: 15px;
   }
@@ -200,6 +200,10 @@ footer a {
   }
   .icon-container a {
     margin-left: 4px;
+  }
+  .projects h2 {
+    font-size: 30px;
+    color: #0d3b66;
   }
 }
 
@@ -214,6 +218,7 @@ footer a {
     display: flex;
     align-items: center;
     margin: auto;
+    text-align: center;
   }
   .container-right {
     display: flex;
@@ -235,6 +240,6 @@ footer a {
   .container-left p {
     margin-left: 20px;
     margin-right: 10px;
-    font-size: 10px;
+    font-size: 12px;
   }
 }

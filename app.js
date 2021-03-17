@@ -1,7 +1,7 @@
 const toggleLight = () => {
   const lightbulb = document.getElementById("lightbulb");
   const name = document.getElementById("name");
-  const body = document.getElementsByTagName("body");
+  // const body = document.getElementsByTagName("body");
 
   lightbulb.addEventListener("click", () => {
     if (name.innerHTML === "Symion.") {
