@@ -28,7 +28,6 @@ body {
   height: 100vh;
 }
 
-
 /* Home */
 
 #home {
@@ -271,13 +270,14 @@ footer a {
   #home {
     font-size: 2rem;
   }
-  
+
   .icon-container {
     font-size: 1.1rem;
-}
+  }
 
-@media screen and (max-height: 320px) and (orientation: landscape) {
-  .container-left img {
-    height: 150px;
+  @media screen and (max-height: 320px) and (orientation: landscape) {
+    .container-left img {
+      height: 150px;
+    }
   }
 }
