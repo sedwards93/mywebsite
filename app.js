@@ -18,7 +18,6 @@ $(window)
         $body.removeClass(function (index, css) {
           return (css.match(/(^|\s)color-\S+/g) || []).join(" ");
         });
-
         $body.addClass("color-" + $(this).data("color"));
       }
     });
@@ -29,7 +28,6 @@ $(window)
 
 $(document).on("click", 'a[href^="#"]', function (event) {
   event.preventDefault();
-
   $("html, body").animate(
     {
       scrollTop: $($.attr(this, "href")).offset().top,
