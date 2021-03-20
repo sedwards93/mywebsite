@@ -1,20 +1,59 @@
-const toggleLight = () => {
-  const lightbulb = document.getElementById("lightbulb");
-  const name = document.getElementById("name");
-  // const body = document.getElementsByTagName("body");
+// Scroll colour animation
 
-  lightbulb.addEventListener("click", () => {
-    if (name.innerHTML === "Symion.") {
-      name.innerHTML = "Symioff.";
-      document.body.className = "dark";
-    } else if (name.innerHTML === "Symioff.") {
-      name.innerText = "Symion.";
-      document.body.className = "light";
-    } else {
-      console.log(name.innerHTML);
-    }
-  });
+$(window)
+  .scroll(function () {
+    var $window = $(window),
+      $body = $("body"),
+      $page = $(".page");
+
+    var scroll = $window.scrollTop() + $window.height() / 3;
+
+    $page.each(function () {
+      var $this = $(this);
+
+      if (
+        $this.position().top <= scroll &&
+        $this.position().top + $this.height() > scroll
+      ) {
+        $body.removeClass(function (index, css) {
+          return (css.match(/(^|\s)color-\S+/g) || []).join(" ");
+        });
+
+        $body.addClass("color-" + $(this).data("color"));
+      }
+    });
+  })
+  .scroll();
+
+// Smooth scroll to anchor link
+
+$(document).on("click", 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $("html, body").animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    500
+  );
+});
+
+// Navbar
+
+window.onscroll = function () {
+  myFunction();
 };
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
 class TypeWriter {
   constructor(txtElement, words, wait = 500) {
@@ -85,5 +124,3 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
-
-setTimeout(() => toggleLight(), 8000);
