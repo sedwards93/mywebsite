@@ -1,4 +1,4 @@
-## symion.co.uk
+## [http://symion.co.uk/](symion.co.uk)
 
 An exercise in design, this website was created orignally created as a single landing page linking to my various professional profiles. 
 
