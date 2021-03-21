@@ -17,7 +17,4 @@ I decided to expand my website to include a project section. I additonal mockups
 
 ![Figma2](./public/figma2.png)
 
-<<<<<<< HEAD
-=======
-![Figma](./public/figma.png)
->>>>>>> c474c5f4cf5073d8c73ed0bbb0692d1077f28d25
+
