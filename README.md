@@ -1,3 +1,5 @@
+Under construction 🚧
+
 ## [symion.co.uk](http://symion.co.uk/)
 
 An exercise in design, this website was created orignally created as a single landing page linking to my various professional profiles. 
@@ -16,5 +18,7 @@ The typewriter annimation was created through following this [Traversy Media](ht
 I decided to expand my website to include a project section. I additonal mockups on Figma and created a project card which could be used for each project. 
 
 ![Figma2](./public/figma2.png)
+
+
 
 
