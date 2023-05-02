@@ -1,204 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/ff403a12e7.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<html>
+<head>
+	<title>Symion</title>
+	<style>
+		body {
+			display: flex;
+      flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+   a, p {
+      color: black;
+      font-family: sans-serif;
+			text-align: center;
+    }
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+      font-style: italic;
+    }
+    p {
+      font-size: rem;
+    }
 
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍣</text></svg>"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <title>Symion.</title>
-  </head>
-  <body>
-    <main>
-      <section class="page" data-color="yellow" id="home">
-        <div class="intro-text">
-          <h1>
-            <span
-              class="txt-type"
-              data-wait="1500"
-              data-words='["Developer.", "Designer.", "Symion."]'
-            ></span>
-          </h1>
-          <div class="icon-container">
-            <a
-              href="https://github.com/sedwards93"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-github-square"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/symion-edwards-433158109/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://symion-edwards.medium.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-medium"></i
-            ></a>
-          </div>
-          <div class="wrap">
-            <a href="#about">
-              <img
-                src="http://image.flaticon.com/icons/svg/3/3907.svg"
-                id="arrow"
-                class="bounce"
-              />
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="page" data-color="blue" id="about">
-        <div class="nav-wrapper" style="height: 43px">
-          <div id="navbar">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-          </div>
-        </div>
-        <div class="container-without-nav">
-          <div class="container">
-            <div class="container-left">
-              <img src="public/Symion.jpg" />
-            </div>
-            <div class="container-right">
-              <p>
-                Hello! I'm Symion, a junior developer and recent Makers Academy
-                graduate. A career-changer, with extensive experience within
-                higher education and the public sector, I have taken a dive
-                head-first into the world of tech. Take a look at my GitHub to
-                see what I’ve been working on, or read about my coding journey
-                on my Medium blog.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="page" data-color="white" id="projects">
-        <div class="card">
-          <img src="./public/Triff.png" alt="triffid" style="width: 100%" />
-          <p class="project-subtitle">Never kill your houseplants again!</p>
-          <p class="project-text">
-            Built for my Makers final project, Triffid is a houseplant
-            monitoring app designed to help users keep track of their leafy
-            friends.
-          </p>
-          <div class="link-container">
-            <a
-              href="https://github.com/samanthagottlieb/triffid"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa fa-github-square"></i
-            ></a>
-            <a
-              href="https://symion-edwards.medium.com/week-of-the-triffids-building-a-houseplant-app-for-my-bootcamp-final-project-225b59c816f7"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-medium"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./public/Syms.png" alt="Sym's Pins" style="width: 100%" />
-          <p class="project-subtitle">
-            Who knew that the logic behind 10 pin bowling was so intricate?!
-          </p>
-          <p class="project-text">
-            Sym's Pins is my attempt creating a bowling scorecard that allows a
-            user to keep track of their score across a 10 frame game of bowling.
-          </p>
-          <div class="link-container">
-            <a
-              href="https://github.com/sedwards93/bowling-challenge"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-github-square"></i
-            ></a>
-            <a
-              href="https://sympinbowling.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fas fa-globe"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./public/Brit.png"
-            alt="Britney Spears Vaccination Bot"
-            style="width: 100%"
-          />
-          <p class="project-subtitle">
-            A #FreeBritney UK vaccine-tracking Twitter bot - naturally!
-          </p>
-          <p class="project-text">
-            Fully automated Twitter bot written in Python. Data regarding UK
-            vaccination rates are scraped from the UK government website and
-            tweeted periodically!
-          </p>
-          <div class="link-container">
-            <a
-              href="https://symion-edwards.medium.com/automating-the-important-stuff-with-python-creating-a-freebritney-vaccination-twitter-bot-f708be767dc7"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-medium"></i
-            ></a>
-            <a
-              href="https://twitter.com/__freebritney"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fas fa-globe"></i
-            ></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./public/Brag.png" alt="BragBook" style="width: 100%" />
-          <p class="project-subtitle">
-            Finally, a social media platform unashamedly transparent with its
-            intensions!
-          </p>
-          <p class="project-text">
-            Bragbook is a full stack Rails Facebook clone designed to make
-            showing off about your life easy.
-          </p>
-          <div class="link-container">
-            <a
-              href="https://github.com/CodeZeus-dev/acebook-SassBook"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-github-square"></i
-            ></a>
-            <a
-              href="https://bragbook.herokuapp.com/users/sign_in"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fas fa-globe"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <script src="app.js"></script>
-    </main>
-    <footer id="contact">
-      <a
-        href="https://drive.google.com/uc?id=1QS_ozZW0jvd740-Tv_PddHweRBNjg9qc&export=download"
-      >
-        <h2>CV</h2>
-      </a>
-      <a href="mailto:symion.edwards@gmail.com"><h2>Email</h2></a>
-    </footer>
-  </body>
+	</style>
+</head>
+<body>
+	<a href="https://github.com/sedwards93">
+    I'm Symion. A Frontend Developer @ Feeld
+	</a>
+</body>
+<p>
+  Under Construction 🚧
+</p>
 </html>
